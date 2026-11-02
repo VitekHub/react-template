@@ -1,5 +1,11 @@
+import { cn } from '@/lib/utils'
+
 function App() {
-  return <h1>react-template</h1>
+  return (
+    <main className="flex min-h-dvh items-center justify-center bg-neutral-50 text-neutral-900">
+      <h1 className={cn('text-3xl font-semibold tracking-tight', 'sm:text-4xl')}>react-template</h1>
+    </main>
+  )
 }
 
 export default App
